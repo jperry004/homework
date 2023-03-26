@@ -18,7 +18,8 @@ import unittest
 from complex_number import ComplexNumber
 
 class TestComplexNumber(unittest.TestCase):
-
+    # TODO: Add negative tests to check exception handling
+    
     def test_string_representation(self):
         # Test string representation of a complex number
         z = ComplexNumber(1, 2)

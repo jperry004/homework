@@ -14,6 +14,8 @@ Written by Josh Perry for Qblox
 class ComplexNumber:
     def __init__(self, real, imag):
         # Initialize the complex number with a real and imaginary component
+        # TODO: Implement exception handling for inputs and "others". 
+        
         self.real = real
         self.imag = imag
 
@@ -40,3 +42,5 @@ class ComplexNumber:
         real = (self.real * other.real + self.imag * other.imag) / denom
         imag = (self.imag * other.real - self.real * other.imag) / denom
         return ComplexNumber(real, imag)
+    
+    # TODO: Implement absolute value and equivalence dunder methods. 
